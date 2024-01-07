@@ -17,15 +17,31 @@ body {
 nav {
     background-color: white; /* Fondo blanco */
     text-align: center; /* Centra los elementos */
-    padding: 10px 0; /* Añade un poco de espacio alrededor del navbar */
+    padding: 10px 20px; /* Añade espacio alrededor del navbar */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del navbar */
+    align-items: center; /* Centra verticalmente los elementos */
+    border-bottom: 1px solid #ccc; /* Línea de separación en la parte inferior */
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
   
+.switch{
+    padding:10px;
+    margin:auto;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
 }
   
 li {
