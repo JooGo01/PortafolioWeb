@@ -75,3 +75,5 @@ a:hover{
 a:hover::before {
     transform: scaleX(1);  /* Se expande al hacer hover */
 }
+
+/*CSS TOGGLE DE TEMA*/
