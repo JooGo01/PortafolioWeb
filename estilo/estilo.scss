@@ -1,0 +1,30 @@
+$color_principal_texto_hover:#1da1c4;
+$color_principal:#505bda;
+$color_secundario:#f02a71;
+$color_terciario:#7ec0e4;
+$color_texto:#1a2849;
+$color_texto_sec:#f8fcfb;
+
+body {
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Nova Square', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: white; /* Fondo blanco */
+    text-align: center; /* Centra los elementos */
+    padding: 10px 20px; /* Añade espacio alrededor del navbar */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del navbar */
+    align-items: center; /* Centra verticalmente los elementos */
+    border-bottom: 1px solid #ccc; /* Línea de separación en la parte inferior */
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
