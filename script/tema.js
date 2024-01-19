@@ -1,15 +1,7 @@
-function cambiarEstiloOscuro() {
-    var elementoClaro = document.getElementById('temaclaro');
-    var elementoOscuro = document.getElementById('temaoscuro');
+const btn_switch=document.querySelector("#switch");
 
-    elementoClaro.style.display = 'none';
-    elementoOscuro.style.display = 'flex';
-}
 
-function cambiarEstiloClaro() {
-    var elementoClaro = document.getElementById('temaclaro');
-    var elementoOscuro = document.getElementById('temaoscuro');
-
-    elementoOscuro.style.display = 'none';
-    elementoClaro.style.display = 'flex';
-}
+btn_switch.addEventListener('click',()=>{
+    document.body.classList.toggle('oscuro');
+    btn_switch.classList.toggle('activo');
+})
